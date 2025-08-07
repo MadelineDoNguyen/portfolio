@@ -116,7 +116,7 @@ const Home: React.FC = () => {
             <ContactButton
               icon="resume"
               text="Resume"
-              href={`${process.env.PUBLIC_URL}/MN_Resume.pdf`}
+              href={`${process.env.PUBLIC_URL}/Resume_2025.pdf`}
             />
           </ContactContent>
         </DesktopTab>
