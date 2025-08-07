@@ -350,7 +350,7 @@ const Work: React.FC = () => {
           <ProjectTitle></ProjectTitle>
           
           <GraphicDesign>
-            <img src="/ahm-illustration.png" alt="a happier me banner illustration" />
+            <img src={`${process.env.PUBLIC_URL}/ahm-illustration.png`} alt="a happier me banner illustration" />
           </GraphicDesign>
           
           <OverviewSection>
@@ -370,7 +370,7 @@ const Work: React.FC = () => {
               </OverviewText>
             </OverviewContent>
             <ProjectMockup>
-              <img src="/ahm-mock.png" alt="a happier me iPhone mockup" />
+              <img src={`${process.env.PUBLIC_URL}/ahm-mock.png`} alt="a happier me iPhone mockup" />
             </ProjectMockup>
           </OverviewSection>
         </ProjectShowcaseContent>
@@ -383,11 +383,11 @@ const Work: React.FC = () => {
           <ProjectTitle></ProjectTitle>
           
           <GraphicDesign>
-            <img src="/modo-illustration.png" alt="modo banner illustration" />
+            <img src={`${process.env.PUBLIC_URL}/modo-illustration.png`} alt="modo banner illustration" />
           </GraphicDesign>
           
           <CenteredMockup>
-            <img src="/modo-mockup.png" alt="modo project mockup" />
+            <img src={`${process.env.PUBLIC_URL}/modo-mockup.png`} alt="modo project mockup" />
           </CenteredMockup>
           
           <OverviewSection>
