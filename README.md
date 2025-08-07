@@ -1,46 +1,139 @@
-# Getting Started with Create React App
+# Madeline Nguyen - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, retro-inspired portfolio website built with React and TypeScript. The design features overlapping desktop-style tabs with a clean, minimalist aesthetic.
 
-## Available Scripts
+## 🎨 Design Features
 
-In the project directory, you can run:
+- **Retro Computer Aesthetic**: Desktop-style tabs with window controls
+- **Color Palette**: 
+  - White (#FEFEFE)
+  - Light Yellow-Green (#D3D977)
+  - Dark Green (#29301B)
+  - Light Pink (#F9CFD9)
+- **Typography**: Jersey 10, DM Sans, and DM Serif Display
+- **Grid Background**: Subtle grid pattern for visual interest
+- **Drop Shadows**: Sharp, unblurred shadows for depth
 
-### `npm start`
+## 🚀 Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Installation
 
-### `npm test`
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd portfolio-cursor
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+```bash
+npm install
+```
 
-### `npm run build`
+3. Start the development server:
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ContactButton.tsx
+│   ├── DesktopTab.tsx
+│   ├── Header.tsx
+│   └── WindowControls.tsx
+├── pages/              # Page components
+│   ├── Home.tsx
+│   └── Work.tsx
+├── styles/             # Global styles and themes
+│   └── GlobalStyles.ts
+├── types/              # TypeScript type definitions
+│   └── index.ts
+└── assets/             # Static assets (images, etc.)
+```
 
-### `npm run eject`
+## 🛠️ Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **React 18** - UI library
+- **TypeScript** - Type safety
+- **Styled Components** - CSS-in-JS styling
+- **React Router** - Client-side routing
+- **Lucide React** - Icon library
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Key Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### DesktopTab
+A reusable component that creates desktop-style windows with:
+- Window controls (3 circles + arrow)
+- Drop shadows without blur
+- Customizable background colors
+- Overlapping positioning
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### ContactButton
+Interactive buttons with:
+- Outlined icons filled with pink
+- Hover effects with shadow
+- Consistent styling
 
-## Learn More
+### WindowControls
+The classic desktop window controls featuring:
+- Three circular buttons
+- Back/forth arrow icon
+- Customizable header background
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 Customization
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Colors
+Update the CSS variables in `src/styles/GlobalStyles.ts`:
+```css
+:root {
+  --white: #FEFEFE;
+  --light-yellow-green: #D3D977;
+  --dark-green: #29301B;
+  --light-pink: #F9CFD9;
+  --black: #000000;
+}
+```
+
+### Fonts
+The project uses Google Fonts:
+- **Jersey 10** (fallback: Arial Black)
+- **DM Sans** - Body text
+- **DM Serif Display** - Headings
+
+## 📱 Responsive Design
+
+The portfolio is designed to be responsive and work well on:
+- Desktop computers
+- Tablets
+- Mobile devices
+
+## 🚀 Deployment
+
+To build for production:
+```bash
+npm run build
+```
+
+The build folder will contain the optimized production files.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Author
+
+**Madeline Nguyen**
+- LinkedIn: [Madeline Nguyen](https://linkedin.com/in/madeline-nguyen)
+- Email: madeline@example.com
+
+---
+
+Built with ❤️ using React and TypeScript
