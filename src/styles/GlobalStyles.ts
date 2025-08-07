@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'Jersey 10';
-    src: url('/Jersey10.ttf') format('truetype');
+    src: url('${process.env.PUBLIC_URL}/Jersey10.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: 'DM Serif Display';
-    src: url('/DMSerifDisplay.ttf') format('truetype');
+    src: url('${process.env.PUBLIC_URL}/DMSerifDisplay.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -19,7 +19,7 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: 'DM Sans';
-    src: url('/DMSans.ttf') format('truetype');
+    src: url('${process.env.PUBLIC_URL}/DMSans.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
