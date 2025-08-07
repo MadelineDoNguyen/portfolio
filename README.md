@@ -25,7 +25,7 @@ A modern, retro-inspired portfolio website built with React and TypeScript. The 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd portfolio-cursor
+cd portfolio
 ```
 
 2. Install dependencies:
