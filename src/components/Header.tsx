@@ -77,9 +77,9 @@ const NavLink = styled(Link)`
 const Header: React.FC = () => {
   return (
     <HeaderContainer>
-      <Logo to="/">madeline nguyen</Logo>
+      <Logo to="/about-me">madeline nguyen</Logo>
       <Navigation>
-        <NavLink to="/">about me</NavLink>
+        <NavLink to="/about-me">about me</NavLink>
         <NavLink to="/work">work</NavLink>
       </Navigation>
     </HeaderContainer>
